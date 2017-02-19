@@ -38,5 +38,26 @@ Forking a repository:
 2. Search the repo name with the different language or most active repo etc.
 3. Find the GitHub repository with which you’d like to work.
 3. Click the Fork button on the upper right-hand side of the repository’s page.
+4.After that take it locally on your system through git clone.
+Using this command ->
+`git clone <your ssh/git url from right side green button just click on it and it will copy auto and peste here ctrl+shift+v in ubuntu >`
 
-`git clone -b <branch> <your ssh/git url>`
+##Setting up remote
+
+Git already added a Git remote named origin to the clone of the Git repository on your system, and this will allow you to push changes back up to the forked repository in your GitHub account using git commit (`git commit -m "massage"`) and git push(`git push`) .
+To add a Git remote pointing back to the original repository (the one you forked on GitHub) , like this:
+
+` git remote add upstream <your ssh/git url> `
+
+This will add the original project as a remote named 'upstream'. To get/update the code, type:
+
+` git fetch upstream `
+
+Then, to merge it into your own project, type:
+
+` git merge upstream/master `
+
+Now you'll have an up-to-date version of the upstream code in your current branch.
+and push again (`git push origin <branch name>`)
+
+
