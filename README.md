@@ -5,8 +5,8 @@
 
  ##Table of Contents:
 
-1. [Read the readme file about a GitHub Repository](#reading-a-github-reposity)
-1. [Forking A GitHub Repository](#forking-a-github-repository)
+1. [Read a GitHub Repository](#reading-a-github-repository)
+1. [Forking A GitHub Repository](#forking-A-github-repository)
 
 2. [How to connect/update with original project / Setting up remote connection?](#setting-up-remote)
 
@@ -21,3 +21,22 @@
 7. [How to re-name the commit message after push?](#renaming-a-commit-message-after-push)
 
 8. [How to undo commits?](#permanently-removing-commit-from-remote-branch-/-revert-a-commit-already-pushed-to-a-remote-repository)
+
+## Reading a Github repository
+
+Basically read the Readme.md file carefully after I'm sure you find overall idea of project.
+There is also one file contribute.md file,Please read also carefully if you want impresive contribute. 
+
+
+## Forking A GitHub Repository
+
+Forking it is basically making a copy of the repository,It also provide a link with the original repository. 
+
+Forking a repository:
+
+1. Make sure you’re logged into GitHub with your account.
+2. Search the repo name with the different language or most active repo etc.
+3. Find the GitHub repository with which you’d like to work.
+3. Click the Fork button on the upper right-hand side of the repository’s page.
+
+`git clone -b <branch> <your ssh/git url>`
