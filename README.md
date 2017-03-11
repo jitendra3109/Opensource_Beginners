@@ -1,6 +1,6 @@
 # Opensource_Beginners
 ## How to contribute on Open source via Github for beginners guide.
- This guide containing the step by step work which can help you to overcome your first scary fear so,Let's get start.
+ This guide containing the step by step work which can help you to overcome your first scary fear of Open source cotribute on Github so,Let's get start.
  Before we start I assume you have git on system if not then first install [Here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
  ##Table of Contents:
